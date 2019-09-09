@@ -1,6 +1,6 @@
 /*C progam to find square and cube of a number
   Author: abhijeet
-  Created on 9 Sept, 2019, 04:45 PM
+  Created on 9 Sept, 2019, 04:48 PM
 */
 #include <stdio.h>
 #include <stdlib.h>
