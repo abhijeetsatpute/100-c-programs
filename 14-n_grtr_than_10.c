@@ -1,6 +1,6 @@
 /*C progam to Check the number is greater than or less than 10
   Author: abhijeet
-  Created on 10 Sept, 2019, 04:41 AM
+  Created on 10 Sept, 2019, 04:43 AM
 */
 #include <stdio.h>
  main()
