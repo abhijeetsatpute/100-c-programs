@@ -2,6 +2,8 @@
   Author: abhijeet
   Created on 9 Sept, 2019, 04:36 PM
 */
+#include <stdio.h>
+#include <stdlib.h>
 main()
 {
   float si,p,n,r;
