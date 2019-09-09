@@ -11,13 +11,13 @@ main()
   printf("B: ");
   scanf("%d",&b);
   printf("-----------------------------------\n");
-  printf("A= %d\tB= %d\tTemp=%d",a,b,temp);
+  printf("1] A= %d\tB= %d\tTemp=%d",a,b,temp);
   temp=a;
-  printf("\nA= %d\tB= %d\tTemp=%d",a,b,temp);
+  printf("\n2] A= %d\tB= %d\tTemp=%d",a,b,temp);
   a=b;
-  printf("\nA= %d\tB= %d\tTemp=%d",a,b,temp);
+  printf("\n3] A= %d\tB= %d\tTemp=%d",a,b,temp);
   b=temp;
-  printf("\nA= %d\tB= %d\tTemp=%d",a,b,temp);
+  printf("\n4] A= %d\tB= %d\tTemp=%d",a,b,temp);
   printf("\n-----------------------------------");
   printf("\nNumbers after Swapping are\nA: %d\nB: %d",a,b );
   getch();
