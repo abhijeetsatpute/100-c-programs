@@ -1,6 +1,6 @@
 /*C progam to swap two numbers
   Author: abhijeet
-  Created on 6 Sept, 2019, 05:19 PM
+  Created on 9 Sept, 2019, 05:19 PM
 */
 #include <stdio.h>
 main()
