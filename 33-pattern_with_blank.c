@@ -1,6 +1,6 @@
 /*C progam to print * square using nested for loop
   Author: abhijeet
-  Created on 10 Sept, 2019, 08:06 PM
+  Created on 10 Sept, 2019, 08:33 PM
 */
 #include <stdio.h>
 int main()
@@ -15,7 +15,7 @@ int main()
     {
       for (j=1;j<=5;j++)
         {
-          if (i<=j)
+          if (j<=6-i)
             printf("*");
           else
             printf(" ");
