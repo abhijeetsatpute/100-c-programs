@@ -1,4 +1,4 @@
-/*C progam to print numbers upto n
+/*C progam to print numbers upto n using while loop
   Author: abhijeet
   Created on 10 Sept, 2019, 06:34 AM
 */
