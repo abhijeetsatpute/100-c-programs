@@ -6,13 +6,14 @@
 #include <stdlib.h>
 int main()
 {
-  int a,sum=0,i;
+  int a,sum=0,i,new;
   printf("Enter the number : ");
   scanf("%d",&a );
-  for (i=0;i<=a;i++)
+  for (i=1;i<=a;i++)
     {
-      printf("%d\t%d\n",i,sum);
-      sum+=i;
+      scanf("%d",&new);
+      sum+=new;
     }
+  printf("%d is the sum",sum);
   return 0;
 }
