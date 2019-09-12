@@ -1,4 +1,4 @@
-:/*C progam -Array of char or String
+/*C progam -Array of char or String
 
 Author: abhijeet
   Created on 12 Sept, 2019, 08:31 PM
