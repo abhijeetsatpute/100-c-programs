@@ -6,15 +6,18 @@ Author: abhijeet
 #include<stdio.h>
 int main()
 {
-    int i;
-    char x[20];
+    // int i;
+    char y[20];
     /*
     for(i=0;x[i]!='\0';i++)
         printf("%c",x[i]);     //chars till null
     */
-    scanf("\%s",x);       //whole string
+    /*
+    scanf("\%s",x);       //has space as delimator
     printf("%s",x );
-    puts(x);                   //withour format specifier cursor to next line
+    */
+    gets(y);
+    puts(y);                   //withour format specifier cursor to next line
     getch();
     return 0;
   }
