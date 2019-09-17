@@ -17,22 +17,29 @@ Return Value
 This function returns the total number of elements successfully returned as a size_t object, which is an integral data type. If this number differs from the nmemb parameter, it will show an error.
 
 Author: abhijeet
-  Created on 17 Sept, 2019, 09:12 AM
+  Created on 17 Sept, 2019, 04:10 PM
 */
 #include "stdio.h"
 #include "stdlib.h"
+
+struct book
+{
+  int id;
+  char title[20];
+  float price;
+};
+
 int main ()
 {
-  char str[10];
+  struct book b1;
   FILE *fp;
-  fp=fopen("f1.txt","r");
-  if(fp==NULL){
-    printf("File not found");
-    exit(1);
-    }
-  while(fgets(str,"9",fp)!=NULL){
-    printf("%s",str );
-  }
+  fp=fopen("book.txt","ab");
+  printf("Enter the book id,title, and price");
+  scanf("%d",&b1.id);
+  fflush(stdin);
+  gets(b1.title);
+  scanf("%f",&b1.price);
+  fwrite(&b1,sizeof(b1),1,fp);
   fclose(fp);
   return 0;
 }
