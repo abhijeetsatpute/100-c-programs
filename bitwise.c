@@ -1,43 +1,21 @@
-/*
-https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem
-*/
-#include "stdio.h"
-#include <string.h>
-int main()
+#define max 2048
+main()
 {
-    int n,i,m=0,k,l;
+    int n,i,marks[max],total=0;
+    char gend;
     scanf("%d",&n);
-    int arr[n];
-    char and[20];
-
-
-    //AND bitwise
-    for(i=1;i<=n;i++)
+    for(i=0;i<=n;i++)
     {
-        m++;
-        for(k=n;k>m;k--)
-            printf("%d",k&m);
-    }m=0;
-    printf("\n");
-//string to array
-
-    //OR bitwise
-    for(i=1;i<=n;i++)
-    {
-        m++;
-        for(k=n;k>m;k--)
-            printf("%d",k|m);
-    }m=0;
-    printf("\n");
-//string to array
-
-    //X-OR bitwise
-    for(i=1;i<=n;i++)
-    {
-        m++;
-        for(k=n;k>m;k--)
-            printf("%d",k^m);
+        scanf("%d",&marks[i]);
     }
-//string to array
-    return 0;
+    scanf("%c",&gend);
+    if(gend == 'b')
+    {
+        total=marks[0]+marks[2];
+    }
+    else if(gend == 'g')
+    {
+        total=marks[1]+marks[3];
+    }
+    printf("%d",total);
 }
